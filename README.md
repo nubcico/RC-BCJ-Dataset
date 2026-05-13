@@ -38,7 +38,7 @@ Despite their importance in structural assessment and post-earthquake inspection
 The dataset supports a range of research tasks, including supervised failure-mode classification, damage-type recognition, severity estimation, image-to-text diagnostic report generation, text-conditioned image generation, and multimodal representation learning.
 
 <p align="center">
-  <img src="figures/annotation_interface.png" width="800" alt="Annotation Interface"/>
+  <img src="figures/survey-interface-fig-1.png" width="800" alt="Annotation Interface"/>
   <br>
   <em>Figure 1. Web-based annotation interface used for structured categorical labeling and free-text diagnostic description entry.</em>
 </p>
