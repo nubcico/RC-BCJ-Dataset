@@ -40,9 +40,8 @@ The dataset supports a range of research tasks, including supervised failure-mod
 <p align="center">
   <img src="figures/survey-interface-fig-1.png" width="800" alt="Annotation Interface"/>
   <br>
-  <em>Figure 1. Web-based annotation interface used for structured categorical labeling and free-text diagnostic description entry.</em>
+  Figure 1. Web-based annotation interface used for structured categorical labeling and free-text diagnostic description entry.
 </p>
----
 
 ## Dataset Statistics
 
