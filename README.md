@@ -250,6 +250,24 @@ with open("annotations/annotations_annotator_01.json", "r") as f:
     annotator_01 = json.load(f)
 ```
 
+### Train 3-class Failure Mechanism classification: Beam, Beam-Joint, Joint using Stratified 10-fold Cross-Validation
+
+```python
+python classifier.py
+```
+
+### Train Downstream Task: Joint Type Classification
+
+```python
+python classifier_downstream_joint_type.py
+```
+
+### Vision-Language Model (VLM) Fine-tuning
+
+```python
+python VLM_finetune.py
+```
+
 ---
 
 ## Citation
