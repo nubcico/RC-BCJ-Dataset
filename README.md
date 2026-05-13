@@ -5,6 +5,12 @@
 
 A curated benchmark dataset of **572 annotated images** of reinforced concrete (RC) beam–column joint failures, with expert-verified multi-attribute annotations for structural damage recognition, vision–language modeling, and generative modeling in structural engineering.
 
+<p align="center">
+  <img src="figures/survey-interface-fig-1.png" width="800" alt="Annotation Interface"/>
+  <br>
+  Figure 1. Web-based annotation interface used for structured categorical labeling and free-text diagnostic description entry.
+</p>
+
 ---
 
 ## Table of Contents
@@ -36,12 +42,6 @@ Despite their importance in structural assessment and post-earthquake inspection
 - **Predefined train–test splits** and baseline benchmark results for reproducible evaluation
 
 The dataset supports a range of research tasks, including supervised failure-mode classification, damage-type recognition, severity estimation, image-to-text diagnostic report generation, text-conditioned image generation, and multimodal representation learning.
-
-<p align="center">
-  <img src="figures/survey-interface-fig-1.png" width="800" alt="Annotation Interface"/>
-  <br>
-  Figure 1. Web-based annotation interface used for structured categorical labeling and free-text diagnostic description entry.
-</p>
 
 ## Dataset Statistics
 
