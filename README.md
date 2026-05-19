@@ -1,7 +1,7 @@
 # RC-BCJ-Dataset: A Benchmark Image Dataset of Reinforced Concrete Beam–Column Joint Failures
 
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
-[![Dataset](https://img.shields.io/badge/Dataset-Zenodo-blue)](https://doi.org/10.5281/zenodo.link](https://doi.org/10.5281/zenodo.20268086)
+[![Dataset](https://img.shields.io/badge/Dataset-Zenodo-blue)](https://doi.org/10.5281/zenodo.20268086)
 
 A curated benchmark dataset of **572 annotated images** of reinforced concrete (RC) beam–column joint failures, with expert-verified multi-attribute annotations for structural damage recognition, vision–language modeling, and generative modeling in structural engineering.
 
