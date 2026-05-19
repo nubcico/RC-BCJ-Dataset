@@ -208,13 +208,40 @@ Four-class classification (B / J / BJ / None failure mechanism) evaluated with 1
 
 ### Image-to-Text Diagnostic Description Generation
 
-Evaluated on BLEU-4, METEOR, and ROUGE-L against expert-written reference descriptions.
+Evaluated on BLEU-4, METEOR, ROUGE-L, CIDEr, SPICE, and BERTScore against expert-written reference descriptions.
 
-| Model | BLEU-4 | METEOR | ROUGE-L |
-|---|---|---|---|
-| Gemma-3-4B | **0.449** | 0.684 | 0.604 |
-| Qwen3-VL-4B | 0.431 | **0.688** | 0.596 |
-| R2Gen | 0.355 | 0.476 | 0.565 |
+### Expert 1
+
+| Model | Year | Training | BLEU-4 | METEOR | ROUGE-L | CIDEr | SPICE | BERTScore |
+|---|---|---|---|---|---|---|---|---|
+| Qwen3-VL-4B | 2025 | Fine-Tuned | **0.8227** | **0.9021** | **0.8894** | **3.5343** | **0.8958** | 0.9784 |
+| Qwen2.5-VL | 2024 | Fine-Tuned | 0.7330 | 0.8628 | 0.8313 | 1.8012 | 0.8339 | 0.9683 |
+| Gemma-3-4B | 2025 | Fine-Tuned | 0.7286 | 0.8442 | 0.8251 | 1.8874 | 0.8308 | 0.9681 |
+| BLIP | 2022 | Fine-Tuned | 0.6468 | 0.8467 | 0.8262 | 0.1609 | 0.7564 | 0.9592 |
+| BLIP-2 | 2023 | Fine-Tuned | 0.5936 | 0.6324 | 0.7357 | 0.1251 | 0.7324 | 0.9545 |
+| R2Gen | 2020 | Fine-Tuned | 0.1703 | 0.3491 | 0.5490 | 0.0230 | 0.3882 | 0.9115 |
+
+### Expert 2
+
+| Model | Year | Training | BLEU-4 | METEOR | ROUGE-L | CIDEr | SPICE | BERTScore |
+|---|---|---|---|---|---|---|---|---|
+| Qwen3-VL-4B | 2025 | Fine-Tuned | **0.5207** | **0.7282** | **0.6759** | **0.9168** | **0.6723** | 0.9481 |
+| Gemma-3-4B | 2025 | Fine-Tuned | 0.4889 | 0.7281 | 0.6580 | 0.6929 | 0.6562 | 0.9439 |
+| BLIP | 2022 | Fine-Tuned | 0.4783 | 0.7207 | 0.6677 | 0.5572 | 0.6627 | 0.9403 |
+| Qwen2.5-VL | 2024 | Fine-Tuned | 0.4320 | 0.6984 | 0.6181 | 0.4050 | 0.6122 | 0.9365 |
+| BLIP-2 | 2023 | Fine-Tuned | 0.3164 | 0.6091 | 0.5089 | 0.0771 | 0.5126 | 0.9240 |
+| R2Gen | 2020 | Fine-Tuned | 0.2440 | 0.4048 | 0.5732 | 0.1024 | 0.4527 | 0.9140 |
+
+### Expert 3
+
+| Model | Year | Training | BLEU-4 | METEOR | ROUGE-L | CIDEr | SPICE | BERTScore |
+|---|---|---|---|---|---|---|---|---|
+| Qwen3-VL-4B | 2025 | Fine-Tuned | **0.1831** | **0.4160** | **0.3811** | **0.4294** | **0.3592** | 0.9068 |
+| Gemma-3-4B | 2025 | Fine-Tuned | 0.1620 | 0.3900 | 0.3711 | 0.1942 | 0.3406 | 0.9046 |
+| Qwen2.5-VL | 2024 | Fine-Tuned | 0.1487 | 0.4010 | 0.3440 | 0.1335 | 0.3100 | 0.9007 |
+| BLIP | 2022 | Fine-Tuned | 0.1272 | 0.3796 | 0.3644 | 0.0685 | 0.3144 | 0.8951 |
+| R2Gen | 2020 | Fine-Tuned | 0.1190 | 0.2761 | 0.3784 | 0.1436 | 0.3162 | 0.8852 |
+| BLIP-2 | 2023 | Fine-Tuned | 0.1103 | 0.3635 | 0.2807 | 0.0680 | 0.2547 | 0.8877 |
 
 ### Text-Conditioned Image Generation
 
