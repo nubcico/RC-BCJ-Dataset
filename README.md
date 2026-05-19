@@ -197,9 +197,14 @@ Three-class classification (B / J / BJ failure mechanism) evaluated with 10-fold
 
 | Model | Accuracy | F1 | AUC |
 |---|---|---|---|
-| Swin-T | **81.69%** | 81.69% | 85.63% |
-| ViT-B/16 | 80.28% | **82.05%** | **88.97%** |
-| ResNet-50 | 77.46% | 80.95% | 85.24% |
+| ResNet-50 | 69.28 | **67.05** | 85.99 |
+| EfficientNet-B0 | 69.06 | 60.15 | 87.52 |
+| EfficientNet-V2-S | 70.13 | 64.88 | 86.64 |
+| ViT-B/16 | **70.30** | 63.25 | **89.19** |
+| Swin-T | 69.77 | 64.43 | 88.80 |
+| DINOv2 | 62.96 | 58.34 | 84.15 |
+| DINOv3 | 59.10 | 61.59 | 81.20 |
+
 
 ### Image-to-Text Diagnostic Description Generation
 
