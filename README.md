@@ -193,7 +193,7 @@ The following baseline results are provided to demonstrate the technical usabili
 
 ### Failure-Mode Classification
 
-Three-class classification (B / J / BJ failure mechanism) evaluated with 10-fold cross-validation.
+Four-class classification (B / J / BJ / None failure mechanism) evaluated with 10-fold cross-validation.
 
 | Model | Accuracy | F1 | AUC |
 |---|---|---|---|
