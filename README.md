@@ -69,7 +69,7 @@ Each image is associated with the following structured annotation fields. All ca
 |---|---|
 | Interior BCJ (+ shaped) | Cross-shaped interior joint configuration |
 | Interior BCJ (T shaped, top floor) | Interior T-type joint configuration |
-| Exterior BCJ (inverted T-shaped) | Exterior T-type joint configuration |
+| Exterior BCJ (⊢ shaped) | Exterior T-type joint configuration |
 | Exterior BCJ (L-shaped, top floor) | Corner-type joint configuration |
 
 ### Failure Mechanism (`failure_mechanism`)
@@ -79,6 +79,7 @@ Each image is associated with the following structured annotation fields. All ca
 | Joint shear (J failure) | Shear-dominated failure within the joint core |
 | Beam flexure near joint (B failure) | Flexural failure at the beam end region |
 | Beam & joint shear (BJ failure) | Combined flexural and joint shear failure |
+| None (no visible failure) | No visible beam or joint failure observed |
 
 ### Damage Type (`damage_type`)
 
@@ -148,8 +149,8 @@ RC-BCJ-Damage-Dataset/
 │   ├── sample_002.png
 │   └── ...
 ├── masks/                           # Segmentation mask images (.png)
-│   ├── sample_001.png
-│   ├── sample_002.png
+│   ├── sample_mask_001.png
+│   ├── sample_mask_002.png
 │   └── ...
 ├── annotations/
 │   ├── annotations_consensus.json   # Consensus labels (one per structured field per image)
@@ -175,7 +176,7 @@ Segmentation masks encode four region classes: background, beam, column, and joi
 
 All annotation files are stored in `/annotations/`.
 
-**`annotations_consensus.json`** — The primary annotation file for standard supervised learning tasks. Provides one consolidated label per structured field per image, including `joint_type`, `damage_type`, `damage_location`, `damage_severity_joint`, and `damage_severity_beam`. Consensus labels are recommended for failure-mode classification, damage-type recognition, and severity estimation benchmarks.
+**`annotations_consensus.json`** — The primary annotation file for standard supervised learning tasks. Provides one consolidated label per structured field per image, including `joint_type`, `damage_type`, `failure_mechanism`, `damage_severity_joint`, and `damage_severity_beam`. Consensus labels are recommended for failure-mode classification, damage-type recognition, and severity estimation benchmarks.
 
 **`annotations_annotator_0{1,2,3}.json`** — Individual annotator files preserving each annotator's original field selections and expert-written diagnostic descriptions prior to consensus aggregation. These files are particularly suited for image-to-text generation and multimodal learning tasks, as each diagnostic description is directly paired with the field labels selected by the same annotator.
 
@@ -282,7 +283,7 @@ with open("annotations/annotations_annotator_01.json", "r") as f:
     annotator_01 = json.load(f)
 ```
 
-### Train 3-class Failure Mechanism classification: Beam, Beam-Joint, Joint using Stratified 10-fold Cross-Validation
+### Train 4-class Failure Mechanism classification: Beam, Beam-Joint, Joint, None using Stratified 10-fold Cross-Validation
 
 ```python
 python classifier.py
