@@ -178,7 +178,7 @@ RC-BCJ-Damage-Dataset/
 
 ### Images and Masks
 
-All images are stored in `/images/` as `sample_XXX.png`. Corresponding segmentation masks are stored in `/s/` using the same file name. Each image is assigned a unique `image_id` following the `sample_XXX` naming convention. All dataset components are linked through this common `image_id` field.
+All images are stored in `/images/` as `sample_XXX.png`. Corresponding segmentation masks are stored in `/masks/` using the same file name. Each image is assigned a unique `sample_id` following the `sample_XXX` naming convention. All dataset components are linked through this common `sample_id` field.
 
 Segmentation masks encode four region classes: background, beam, column, and joint core.
 
