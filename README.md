@@ -194,7 +194,7 @@ The following baseline results are provided to demonstrate the technical usabili
 
 ### Failure-Mode Classification
 
-Four-class classification (B / J / BJ / None failure mechanism) evaluated with 10-fold cross-validation.
+Performance comparison of classification models on four-class structural condition classification (None, B, J, and BJ) using the consolidated labels and specimen-level organized training and testing sets.} All models were initialized with ImageNet-pretrained weights and fine-tuned on the train split organized in isolated order to prevent data leakage of images of one specimen in test set. Accuracy is reported as a percentage, while F1-score and AUC are reported as decimal values. Metrics were calculated of three independent runs using random seeds 42, 43, and 44.
 
 | Model | Accuracy (%) | F1 | AUC |
 |---|---|---|---|
