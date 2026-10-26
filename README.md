@@ -99,11 +99,11 @@ Severity levels are defined for this dataset and are conceptually aligned with t
 
 | Level | Label | Description |
 |---|---|---|
-| DS0 | No visible damage | No observable structural damage |
-| DS1 | Minor | Slight cracking without structural compromise |
-| DS2 | Moderate | Noticeable cracking and localized deterioration |
-| DS3 | Severe | Significant damage affecting structural integrity |
-| DS4 | Near collapse | Critical damage approaching structural failure |
+| DS0 | No visible damage | No visible cracking, spalling, crushing, or reinforcement exposure in the assessed region. |
+| DS1 | Minor | Isolated fine cracks without visible concrete spalling, crushing, or reinforcement exposure. |
+| DS2 | Moderate | Multiple or more extensive cracks, possibly accompanied by limited localized spalling, without evident concrete crushing. |
+| DS3 | Severe | Extensive cracking, pronounced concrete spalling, and/or localized crushing, possibly with limited reinforcement exposure. |
+| DS4 | Extensive visible damage | Extensive concrete crushing or material loss, severe reinforcement exposure associated with concrete deterioration, and/or pronounced visible deformation. |
 
 ### Source Domain (`source_domain`)
 
