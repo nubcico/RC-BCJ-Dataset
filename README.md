@@ -112,7 +112,7 @@ Severity levels are defined for this dataset and are conceptually aligned with t
 | Experimental specimen (laboratory) | Controlled laboratory testing environment |
 | Real building (field / web-collected) | Images from in-service structures |
 
-### Diagnostic Description (`description`)
+### Description (`description`)
 
 Each image is accompanied by three independent free-text structural diagnostic narratives, one per annotator. These descriptions capture expert observations that may not be fully represented by discrete categorical fields. All three descriptions are retained in the dataset to preserve different expert perspectives and wording styles.
 
