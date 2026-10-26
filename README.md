@@ -196,15 +196,15 @@ The following baseline results are provided to demonstrate the technical usabili
 
 Four-class classification (B / J / BJ / None failure mechanism) evaluated with 10-fold cross-validation.
 
-| Model | Accuracy | F1 | AUC |
+| Model | Accuracy (%) | F1 | AUC |
 |---|---|---|---|
-| ResNet-50 | 69.28 | **67.05** | 85.99 |
-| EfficientNet-B0 | 69.06 | 60.15 | 87.52 |
-| EfficientNet-V2-S | 70.13 | 64.88 | 86.64 |
-| ViT-B/16 | **70.30** | 63.25 | **89.19** |
-| Swin-T | 69.77 | 64.43 | 88.80 |
-| DINOv2 | 62.96 | 58.34 | 84.15 |
-| DINOv3 | 59.10 | 61.59 | 81.20 |
+| ResNet-50 | 59.71 | 0.510 | 0.806 |
+| EfficientNet-B0 | 60.00 | 0.552 | 0.824 |
+| EfficientNet-V2-S | 61.74 | 0.518 | 0.803 |
+| ViT-B/16 | 66.67 | 0.585 | 0.847 |
+| Swin-T | **67.25** | **0.610** | **0.863** |
+| DINOv2-B | 58.55 | 0.510 | 0.804 |
+| DINOv3-B | 57.10 | 0.564 | 0.767 |
 
 
 ### Image-to-Text Diagnostic Description Generation
