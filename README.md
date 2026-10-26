@@ -159,8 +159,8 @@ RC-BCJ-Damage-Dataset/
 │   ├── sample_002.png
 │   └── ...
 ├── masks/                           # Segmentation mask images (.png)
-│   ├── sample_001.png
-│   ├── sample_002.png
+│   ├── sample_mask_001.png
+│   ├── sample_mask_002.png
 │   └── ...
 ├── annotations/
 │   ├── annotations_consensus.json   # Consensus labels (one per structured field per image)
@@ -178,7 +178,7 @@ RC-BCJ-Damage-Dataset/
 
 ### Images and Masks
 
-All images are stored in `/images/` as `sample_XXX.png`. Corresponding segmentation masks are stored in `/masks/` using the same file name. Each image is assigned a unique `sample_id` following the `sample_XXX` naming convention. All dataset components are linked through this common `sample_id` field.
+All images are stored in `/images/` as `sample_XXX.png`. Corresponding segmentation masks are stored in `/masks/` using the file name `sample_XXX_mask`. Each image is assigned a unique `sample_id` following the `sample_XXX` naming convention. All dataset components are linked through this common `sample_id` field.
 
 Segmentation masks encode four region classes: background, beam, column, and joint core.
 
