@@ -338,9 +338,3 @@ If you use this dataset in your research, please cite:
 - Isabella Schlattner — Department of Computer Science, Nazarbayev University, Astana, Kazakhstan
 - Dong-Ho Kim — Department of Architecture and Architectural Engineering, Hankyong National University, Republic of Korea
 - Hyun-Jin Ju *(Corresponding author: hju@hknu.ac.kr)* — Department of Architecture and Architectural Engineering, Hankyong National University, Republic of Korea
-
----
-
-## License
-
-This dataset is released under the [Creative Commons Attribution–NonCommercial 4.0 International (CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/) license. It is freely available for academic and non-commercial research use. Commercial use is prohibited.
