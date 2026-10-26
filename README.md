@@ -57,6 +57,16 @@ The dataset supports a range of research tasks, including supervised failure-mod
 | Segmentation masks provided | Yes (all 572 images) |
 | Source domains | Laboratory specimens; field / web-collected |
 
+### Distribution by Joint Configuration and Failure Mechanism
+
+| Joint configuration | B | J | BJ | No damage | Total |
+|---|---|---|---|---|---|
+| Exterior (⊢-shaped) | 134 | 140 | 77 | 3 | 354 |
+| Interior (+-shaped) | 62 | 89 | 46 | 1 | 198 |
+| Interior (T-shaped, top floor) | 4 | 1 | 2 | 6 | 13 |
+| Exterior (L-shaped, top floor) | 1 | 3 | 1 | 2 | 7 |
+| **Total** | **201** | **233** | **126** | **12** | **572** |
+
 ---
 
 ## Annotation Taxonomy
