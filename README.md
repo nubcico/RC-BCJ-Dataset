@@ -159,8 +159,8 @@ RC-BCJ-Damage-Dataset/
 │   ├── sample_002.png
 │   └── ...
 ├── masks/                           # Segmentation mask images (.png)
-│   ├── sample_mask_001.png
-│   ├── sample_mask_002.png
+│   ├── sample_001_mask.png
+│   ├── sample_002_mask.png
 │   └── ...
 ├── annotations/
 │   ├── annotations_consensus.json   # Consensus labels (one per structured field per image)
